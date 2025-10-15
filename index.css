@@ -1,0 +1,86 @@
+@import "styles/reset.css";
+@import "styles/vars.css";
+@import "styles/fonts.css";
+body{
+    font-family: 'Inter-Regular', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: var(--width-size170) 1fr var(--width-size567);
+
+}
+.header{
+    display: grid;
+    grid-template-rows:var(--width-size67) var(--white-size103);
+    background-color: var(--primary-color-10);
+}
+.header-top{
+    display: grid;
+    background-color: var(--primary-color);
+   justify-items: center;
+
+}
+.header-top-title {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: var(--width-size-8);
+
+}
+.header-top-title a {
+    width: var(--width-arrow-yellow);
+    height: var(--width-arrow-yellow);
+
+}
+.header-top-title span {
+    font-size: var(--width-size-18);
+    color: var(--secondary-color-60);
+}
+.nav{
+    display: grid;
+    grid-template-columns: var(--width-size178) 1fr var(--white-size130);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--max-indentation) 0 var(--max-indentation);
+}
+.menu-table{
+    display: grid;
+    grid-template-columns: repeat(4,var(--max-indentation));
+    justify-content: center;
+
+}
+.menu-table-item{
+    color: var(--text-color);
+    font-size: var(--width-size-18);
+    text-align: center;
+    padding: var(--min-indentation) var(--white-size5) ;
+}
+.menu-table-item__active{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: var(--min-indentation) var(--white-size5);
+    border:1px solid var(--border-color);
+    border-radius: var(--min-indentation);
+
+}
+.contact-button{
+    border:1px solid var(--primary-color);
+    font-family:'Inter-Medium',sans-serif ;
+    width: var(--white-size137);
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--yellow-color);
+    padding: var(--white-size15) var(--white-size5);
+    border-radius:  var(--white-size13);
+}
+
+
+.main , .footer{
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
