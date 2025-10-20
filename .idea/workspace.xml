@@ -4,97 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12cc38b1-4c05-4e5e-a2bd-6c82cfa5ad32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Inter-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/KumbhSans-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/KumbhSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/arrow-down_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/arrow-down_white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/arrow-top-right_black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/arrow-top-right_yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/eye_yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/star_gray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/star_yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/advantages/icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/advantages/icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/advantages/icon-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog-details/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/blog/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contacts/icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contacts/icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/features/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/features/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/news/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/podcasts/icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/podcasts/icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/card-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/card-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/card-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/details-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/details-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports/icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources-preview/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources-preview/bg_tablet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources/details-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources/details-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources/icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/resources/icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/videos/poster-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/vars.css" afterDir="false" />
+    <list default="true" id="12cc38b1-4c05-4e5e-a2bd-6c82cfa5ad32" name="Changes" comment="start project">
+      <change afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/promo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/vars.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gliperv7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gliperv7/FutureTech.git&quot;,
+    &quot;accountId&quot;: &quot;5e298c0d-ed35-48d7-b04a-1ba5a74e66bc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="345OyLWTnl9u8OBc6onjhFDdDab" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,11 +82,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760500220112</updated>
-      <workItem from="1760500221253" duration="8538000" />
+      <workItem from="1760500221253" duration="8852000" />
+      <workItem from="1760583918081" duration="3662000" />
+      <workItem from="1760595249179" duration="3844000" />
+      <workItem from="1760674855097" duration="1233000" />
+      <workItem from="1760724243518" duration="310000" />
+      <workItem from="1760765744917" duration="8187000" />
+      <workItem from="1760870823070" duration="192000" />
+      <workItem from="1760942051498" duration="12126000" />
     </task>
+    <task id="LOCAL-00001" summary="start project">
+      <option name="closed" value="true" />
+      <created>1760509189573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760509189573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start project" />
+    <option name="LAST_COMMIT_MESSAGE" value="start project" />
   </component>
 </project>

@@ -4,6 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: var(--font-family),sans-serif;
+    font-weight: 400;
+    font-size: var(--space-18);
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: var(--grey-60);
 }
 .header-nav-list-item-action{
     border: none;

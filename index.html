@@ -7,44 +7,115 @@
     <title>title2</title>
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <div class="header">
-            <div class="header-top">
-                <aside class="header-top-title">
-                    <span>Subscribe to our Newsletter For New & latest Blogs and Resources</span>
-                    <a href="#"><img src="icons/arrow-top-right_yellow.svg" alt="arrow"></a>
-                </aside>
-            </div>
-            <nav class="nav">
-                <div class="logo">
-                    <img src="images/logo.svg" alt="icon" class="logo-img">
-                </div>
-                <div class="menu">
-                    <ul class="menu-table">
-                        <li class="menu-table-item menu-table-item__active"><a href="#">Home</a></li>
-                        <li class="menu-table-item"><a href="#">News</a></li>
-                        <li class="menu-table-item"><a href="#">Podcast</a></li>
-                        <li class="menu-table-item"><a href="#">Resources</a></li>
-                    </ul>
-                </div>
-                <div class="contact-button">
-                    <a href="">Contact Us</a>
-                </div>
-            </nav>
+<!--реаклама-->
+<aside class="promo">
+    Subscribe to our Newsletter For New & latest Blogs and Resources
+    <a href="#"><img src="icons/arrow-top-right_yellow.svg" alt="arrow" class="promo-img"></a>
+</aside>
+<!--реаклама-->
+<header class="header">
+    <nav class="nav container">
+        <div class="logo">
+            <img src="images/logo.svg" alt="icon" class="logo-img">
         </div>
-    </header>
+        <ul class="menu menu-md">
+            <li class="menu-table-item"><a href="#" class="active">Home</a></li>
+            <li class="menu-table-item"><a href="#">News</a></li>
+            <li class="menu-table-item"><a href="#">Podcast</a></li>
+            <li class="menu-table-item"><a href="#">Resources</a></li>
+        </ul>
+        <div class="contact-button menu-md">
+            <a href="">Contact Us</a>
+        </div>
+        <!--burger-->
+        <button class="burger burger-btn burger-md">
+            <svg width="34" height="34" viewBox="0 0 34 34"  xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M4.25 9.5625C4.25 8.9757 4.7257 8.5 5.3125 8.5H28.6875C29.2743 8.5 29.75 8.9757 29.75 9.5625C29.75 10.1493 29.2743 10.625 28.6875 10.625H5.3125C4.7257 10.625 4.25 10.1493 4.25 9.5625ZM4.25 17C4.25 16.4132 4.7257 15.9375 5.3125 15.9375H28.6875C29.2743 15.9375 29.75 16.4132 29.75 17C29.75 17.5868 29.2743 18.0625 28.6875 18.0625H5.3125C4.7257 18.0625 4.25 17.5868 4.25 17ZM15.9375 24.4375C15.9375 23.8507 16.4132 23.375 17 23.375H28.6875C29.2743 23.375 29.75 23.8507 29.75 24.4375C29.75 25.0243 29.2743 25.5 28.6875 25.5H17C16.4132 25.5 15.9375 25.0243 15.9375 24.4375Z"
+                      fill="white"/>
+            </svg>
+        </button>
+        <ul class="burger-menu burger-md">
+            <li class="menu-table-item"><a href="#" class="active">Home</a></li>
+            <li class="menu-table-item"><a href="#">News</a></li>
+            <li class="menu-table-item"><a href="#">Podcast</a></li>
+            <li class="menu-table-item"><a href="#">Resources</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main class="main">
-        <section class="section">
-            main
-        </section>
-    </main>
+<section class="section">
+    <div class="container-section-1 container">
+        <ul class="table-section-1">
+            <li class="table-section-item table-section-item-1">
+                <div class="table-section-item-content table-section-item-content-1">
+                    <div class="table-section-item-title text-container">
+                    <p class="table-section-item-content-title-1">Your Journey to Tomorrow Begins Here</p>
+                    <p class="table-section-item-content-title-2">Explore the Frontiers of Artificial Intelligence</p>
+                    <p class="table-section-item-content-title-3">Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines
+                        think, learn, and reshape the future. Join us on this visionary expedition into the heart of AI.</p>
+                    </div>
+                </div>
+                <div class="table-section-item-content table-section-item-content-2">
+                    <div class="table-section-item-title text-container">
+                        <p class="table-section-item-content-title-2">300<span>+</span></p>
+                        <p class="table-section-item-content-title-3">Resources available</p>
+                    </div>
+                </div>
+                <div class="table-section-item-content table-section-item-content-2">
+                    <div class="table-section-item-title text-container">
+                        <p class="table-section-item-content-title-2">12k<span>+</span></p>
+                        <p class="table-section-item-content-title-3">total Downloads</p>
+                    </div>
+                </div>
+                <div class="table-section-item-content table-section-item-content-2">
+                    <div class="table-section-item-title text-container">
+                        <p class="table-section-item-content-title-2">10k<span>+</span></p>
+                        <p class="table-section-item-content-title-3">Active Users</p>
+                    </div>
+                </div>
+            </li>
+            <li class="table-section-item table-section-item-2">
+                    <div class="table-section-items">
+                        <div class="table-section-item table-section-item-img">
+                            <div class="table-section-item-img-back">
+                            <img src="images/team/1.png" height="60" width="60" alt="team" class="table-section-item-images-1"/>
+                            <img src="images/team/2.png" height="60" width="60" alt="team" class="table-section-item-images-2"/>
+                            <img src="images/team/3.png" height="60" width="60" alt="team" class="table-section-item-images-3"/>
+                            <img src="images/team/4.png" height="60" width="60" alt="team" class="table-section-item-images-4"/>
+                            </div>
+                        </div>
+                        <div class="table-section-item table-section-item-text">
+                            <p class="table-section-item-content-title-2">Explore 1000+ resources</p>
+                            <p class="table-section-item-content-title-3">Over 1,000 articles on emerging tech trends and breakthroughs.</p>
+                            <a href="#">Explore Resources <svg width="16.5" height="16.5" viewBox="0 0 25 25"  xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.75 4.25L20 4.25C20.1989 4.25 20.3897 4.32902 20.5303 4.46967C20.671 4.61032 20.75 4.80109 20.75 5V16.25C20.75 16.6642 20.4142 17 20 17C19.5858 17 19.25 16.6642 19.25 16.25V6.81066L5.53033 20.5303C5.23744 20.8232 4.76256 20.8232 4.46967 20.5303C4.17678 20.2374 4.17678 19.7626 4.46967 19.4697L18.1893 5.75L8.75 5.75C8.33579 5.75 8 5.41421 8 5C8 4.58579 8.33579 4.25 8.75 4.25Z" fill="#FFD11A"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
 
-    <footer class="footer">
-        footer
-    </footer>
-</div>
+            </li>
+        </ul>
+        <ul class="table-section-2">
+            <li class="table-section-2-item">
 
+            </li>
+            <li class="table-section-2-item">
+
+            </li>
+            <li class="table-section-2-item">
+
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<footer class="footer">
+    footer
+</footer>
+
+<script src="index.js"></script>
 </body>
 </html>
