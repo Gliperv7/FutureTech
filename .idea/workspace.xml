@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12cc38b1-4c05-4e5e-a2bd-6c82cfa5ad32" name="Changes" comment="start project">
-      <change afterPath="$PROJECT_DIR$/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/promo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/vars.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +84,7 @@
       <workItem from="1760765744917" duration="8187000" />
       <workItem from="1760870823070" duration="192000" />
       <workItem from="1760942051498" duration="12126000" />
+      <workItem from="1761045513312" duration="8542000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
