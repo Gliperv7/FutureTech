@@ -402,8 +402,10 @@ a {
 .container-section-1 {
 
     border-bottom: var(--space-1) solid var(--dark-15);
+
     .section-1-content {
         background: var(--dark-10);
+
         .section-1-content-text {
             --padding-top: calc(var(--space-60) * 2);
             --padding-bottom: calc(var(--space-60) * 2);
@@ -495,14 +497,16 @@ a {
         }
     }
 }
-.content-section-2-item-container{
+
+.content-section-2-item-container {
     display: grid;
     grid-template-columns: 40% 60%;
     @media (width <= 764px) {
         grid-template-columns: 100%;
     }
     border-bottom: var(--space-1) solid var(--dark-15);
-    .content-section-2-item-content-header{
+
+    .content-section-2-item-content-header {
         --padding-right: var(--space-80);
         --padding-left: var(--space-80);
 
@@ -515,7 +519,7 @@ a {
         @media (width <= 1440px) {
             --padding-right: var(--space-60);
             --padding-left: var(--space-60);
-            svg{
+            svg {
                 width: var(--space-48);
                 height: var(--space-48);
             }
@@ -527,7 +531,8 @@ a {
             padding-bottom: var(--space-50);
             border-bottom: var(--space-1) solid var(--dark-15);
         }
-        .content-section-2-item-content-header-text-1{
+
+        .content-section-2-item-content-header-text-1 {
             --padding-top: var(--space-50);
             --padding-bottom: var(--space-16);
             --font-size: var(--space-40);
@@ -543,7 +548,8 @@ a {
             @media (width <= 764px) {
                 --font-size: var(--space-24);
             }
-            .content-section-2-item-content-header-text-2{
+
+            .content-section-2-item-content-header-text-2 {
                 --font-size: var(--space-18);
                 font-size: var(--font-size);
                 @media (width <= 1440px) {
@@ -557,14 +563,16 @@ a {
 
 
     }
-    .content-section-2-item-content{
+
+    .content-section-2-item-content {
         border-left: var(--space-1) solid var(--dark-15);
         @media (width <= 764px) {
-            border-left:unset;
+            border-left: unset;
 
         }
     }
-    .content-section-2-items-text{
+
+    .content-section-2-items-text {
         --padding-left: var(--space-80);
         --padding-right: var(--space-162);
         --padding-top: var(--space-80);
@@ -572,7 +580,7 @@ a {
 
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-auto-rows: 50% 50% ;
+        grid-auto-rows: 50% 50%;
         @media (width <= 764px) {
             grid-template-columns: 1fr;
             grid-auto-rows: 1fr ;
@@ -591,8 +599,9 @@ a {
             --padding-top: var(--space-30);
             --padding-bottom: var(--space-30);
         }
-        .content-section-2-items-text-section{
-            --padding:var(--space-40) ;
+
+        .content-section-2-items-text-section {
+            --padding: var(--space-40);
             border: var(--space-1) solid var(--dark-15);
             border-radius: var(--space-12);
             padding: var(--padding);
@@ -600,7 +609,8 @@ a {
             @media (width <= 1440px) {
                 --padding: var(--space-30);
             }
-            .content-section-2-items-text-1{
+
+            .content-section-2-items-text-1 {
                 --font-size: var(--space-24);
 
                 font-weight: 500;
@@ -613,7 +623,8 @@ a {
                     --font-size: var(--space-18);
                 }
             }
-            .content-section-2-items-text-2{
+
+            .content-section-2-items-text-2 {
                 --padding-top: var(--space-20);
                 --font-size: var(--space-16);
 
@@ -626,6 +637,7 @@ a {
         }
     }
 }
+
 .tabs {
     display: grid;
     grid-template-columns: repeat(6, minmax(1px, 1fr));
@@ -633,12 +645,12 @@ a {
     column-gap: 1rem;
 }
 
-.tab{
+.tab {
     --padding-top: var(--space-50);
     --padding-bottom: var(--space-50);
     --padding-horizontal: var(--space-80);
 
-    padding: var(--padding-top) var(--padding-horizontal) var(--padding-bottom) var(--padding-horizontal) ;
+    padding: var(--padding-top) var(--padding-horizontal) var(--padding-bottom) var(--padding-horizontal);
     display: grid;
     grid-column: 1 / -1;
     grid-row: 1 / span 2;
@@ -648,12 +660,12 @@ a {
 }
 
 .tab-subtitle {
-    --padding-top-bottom:var(--space-30);
-    --padding-right-left:var(--space-24);
+    --padding-top-bottom: var(--space-30);
+    --padding-right-left: var(--space-24);
     grid-column: var(--n) / span 1;
     grid-row: 1;
     display: grid;
-    padding:var(--padding-top-bottom) var(--padding-right-left);
+    padding: var(--padding-top-bottom) var(--padding-right-left);
     border-radius: var(--space-8);
     border: var(--space-1) solid var(--dark-15);
     cursor: pointer;
@@ -672,23 +684,124 @@ details[open] :is(summary, .summary) {
 details::details-content {
     grid-row: 2;
     grid-column: 1 / -1;
-    padding: 1rem;
+    padding: var(--space-16);
     border-bottom: var(--space-1) solid var(--dark-15);
 }
 
 details:not([open])::details-content {
     display: none;
 }
-.tab-content{
+
+.tab-content {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 
-    .tab-content-block{
+    .tab-content-block {
+        --padding-top: var(--space-80);
+        --padding-bottom: var(--space-80);
+        --padding-horizontal: var(--space-162);
         border-top: var(--space-1) solid var(--dark-15);
         display: grid;
         grid-template-columns: auto 1fr auto;
-        .tab-user-account{
-           
+        padding: var(--padding-top) var(--padding-horizontal) var(--padding-bottom) var(--padding-horizontal);
+        .link-blog{
+            --padding-left: var(--space-20);
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            padding: var(--padding-left) ;
+            .section-1-content-link{
+                --padding-horizontal: var(--space-24);
+                --padding-vertical: var(--space-18);
+                border: var(--space-1) solid var(--dark-15);
+                border-radius: 12px;
+                padding: var(--padding-vertical) var(--padding-horizontal);
+                align-items: center;
+            }
+
+        }
+        .tab-user-posts {
+            .tab-user-posts-buttons {
+                display: flex;
+                gap: var(--space-10);
+
+                .tab-user-posts-button {
+                    --padding-horizontal: var(--space-16);
+                    --padding-vertical: var(--space-8);
+
+                    display: flex;
+                    align-items: center;
+
+                    border: 1px solid var(--dark-15);
+                    border-radius: var(--space-30);
+                    padding: var(--padding-vertical) var(--padding-horizontal);
+                    background: var(--dark-10);
+                    z-index: 3;
+                    cursor: pointer;
+                    transition: background 0.2s ease;
+
+                    svg {
+                        padding-right: var(--space-4);
+                        transition: stroke 0.2s ease;
+
+                    }
+
+                    & --like.active svg {
+                        stroke: #f50;
+                        fill: #f50;
+                    }
+
+
+                }
+
+
+            }
+
+            .tab-user-posts-hero {
+                --padding-top: var(--space-30);
+                --padding-bottom: var(--space-10);
+                --font-size: var(--space-26);
+                padding-top: var(--padding-top);
+                padding-bottom: var(--padding-bottom);
+
+                font-weight: 600;
+                font-size: var(--font-size);
+                color: var(--absolute-white);
+            }
+
+            .tab-user-posts-text {
+                --padding-bottom: var(--space-30);
+                --font-size: var(--space-18);
+
+                padding-bottom: var(--padding-bottom);
+                font-size: var(--font-size);
+            }
+        }
+
+        .user-card {
+            --padding-right: var(--space-80);
+            display: grid;
+            grid-template-columns:  max(var(--space-80)) 1fr;
+            align-items: start;
+            gap: var(--space-16);
+            padding-right: var(--padding-right);
+
+            .user-card__role {
+                --font-size: var(--space-18);
+                font-size: var(--font-size);
+            }
+
+            .user-card__name {
+                --font-size: var(--space-20);
+                font-weight: 600;
+                font-size: var(--font-size);
+                color: var(--absolute-white);
+            }
+
+            .user-card__avatar {
+                border-radius: 50%;
+                background-color: var(--dark-25);
+            }
         }
 
     }
