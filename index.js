@@ -5,17 +5,17 @@ burgerBtn.addEventListener('click', () => {
 })
 ;
 document.addEventListener('DOMContentLoaded', () => {
-    // Находим все кнопки с сердечком (лайки)
+
     const likeButtons = document.querySelectorAll('.tab-user-posts-button--like');
 
-    // Проходим по каждой кнопке
+
     likeButtons.forEach(likeButton => {
         const svgPath = likeButton.querySelector('svg path');
 
         likeButton.addEventListener('click', () => {
             likeButton.classList.toggle('active');
 
-            // Меняем цвет при активации
+
             if (likeButton.classList.contains('active')) {
                 svgPath.setAttribute('fill', '#f50');
                 svgPath.setAttribute('stroke', '#f50');
