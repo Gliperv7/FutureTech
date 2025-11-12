@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12cc38b1-4c05-4e5e-a2bd-6c82cfa5ad32" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -104,6 +103,11 @@
       <workItem from="1762321237575" duration="7148000" />
       <workItem from="1762347105666" duration="4000" />
       <workItem from="1762498480553" duration="3978000" />
+      <workItem from="1762680181664" duration="3975000" />
+      <workItem from="1762768395480" duration="1335000" />
+      <workItem from="1762845568410" duration="1057000" />
+      <workItem from="1762921233293" duration="2470000" />
+      <workItem from="1762924020044" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <option name="closed" value="true" />
